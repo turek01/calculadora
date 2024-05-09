@@ -1,0 +1,70 @@
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255); 
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    font-size: 50px;
+    border-radius: 20px;
+     
+   
+}
+
+h1:hover{
+
+    color: #1d7186;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+            border-collapse: collapse;
+            width: 100%;
+           
+        }
+
+th, td {
+            border: 1px solid #00c3ff;
+            text-align: left;
+            padding: 6px;
+            box-shadow: 0 0 10px rgb(0, 195, 255);
+            transition: box-shadow 0.3s ease;
+        }
+
+th {
+            background-color: #1900ff;
+        }
+.botao-calcular {
+    background-color: #1100ffcc;
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    }
+
+.botao-calcular:hover {
+    background-color: #ffffff;
+    }
+.botao-calcular:active {
+    box-shadow: 0 0 10px rgb(255, 255, 255); 
+}
+body {
+    background-image: url('https://unsplash.com/photos/gJIqqcm2ATM/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTh8fHdhbHBhcGVyfHB0fDB8fHx8MTcxNTE5MTYzNnww&force=true');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #ffffff; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(59, 38, 250); 
+}
+
